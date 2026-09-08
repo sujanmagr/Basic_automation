@@ -5,13 +5,10 @@ import time
 from selenium.webdriver.support.ui import Select
 
 #launch browser
-# driver=webdriver.Chrome()
-# time.sleep(2)
-# driver.maximize_window()
-
 driver=webdriver.Chrome()
-time.sleep(1)
+time.sleep(2)
 driver.maximize_window()
+
 # driver.implicitly_wait(10)
 
 #store url
